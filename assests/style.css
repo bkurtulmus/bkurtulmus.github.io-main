@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfae7;
+}
+
+li, a{  
+    font-weight: 300;
+    font-size: 20px;
+    color:#d45526;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+button{
+    font-weight: 200;
+    font-size:16px;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+header{
+    display: flex;
+    justify-content:space-around; /*push everything to right --> flex-end */
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navlist{
+   list-style: none; 
+}
+
+.navlist li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+/*
+.navlist li a{
+    transition: all 0.2s ease 0s;
+
+}
+*/
+
+.navlist li a:hover{
+    color:rgb(110, 6, 6);
+    
+}
+
+.image{
+    width:550px; 
+    height:550px;
+
+}
+
+.imageMailBox{
+    height:420px;
+    margin-bottom:90px;
+    margin-left:60px;
+
+}
+
+h1{
+    display: inline;
+    float: left;
+    font-size: 50px;
+    font-family: monospace;
+    padding: 150px 20px 20px 20px;
+    color:#000000;
+}
+
+.div1{
+    width:550px;
+    height:550px;
+    display: flex;
+    display: inline-block;
+}
+
+
+
+.div3{
+    width:550px; 
+    height:550px;
+}
+
+
+
+
+button{
+    padding: 10px 25px;
+    background-color: #d45526;
+    border: none;
+    color:antiquewhite;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(110, 6, 6);
+}
+
+
+
+
+#main{
+    text-align: center;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 980px){
+    #WRAPPER { display: block !important;  }
+    .smaller { display: inline-block !important; }
+  }
+
+
+ 
+.p1{
+    font-size: 16px;
+    font-family:'Nunito',sans-serif;
+    text-align: center;
+    margin:0;
+    padding:40px 40px 20px 40px;
+    font-weight: 600;
+}
+
+.p2{
+    font-size: 16px;
+    font-family:'Nunito',sans-serif;
+    text-align: left;
+    margin:0;
+    padding:40px 40px 20px 40px;
+    font-weight: 600;
+}
+
+.container{
+    width:500px;
+    height:300px;
+}
+
+.aboutImg{
+    height:310px;
+    padding: 0px 40px 40px 200px; 
+    float: left;
+}
+
+
+
+.titles{
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+    font-weight: 500;
+    text-align: justify;
+    padding-right: 200px;
+
+}
+
+
+h2{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 600;
+    padding: 100px 40px 40px 200px;
+}
+
+/*Tam olarak dogru degil, degistirilmeli*/
+@media (max-width: 480px) {  
+
+    .titles {
+        padding:0;
+        margin:0;
+      }
+}
+
+.mH3{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    padding: 20px 20px 20px 200px;
+}
+
+.pH3{
+    font-family: 'Nunito', sans-serif;
+    font-size:18px;
+    font-weight: 500;
+    text-align: justify;
+    padding-right: 200px;
+    font-style: italic;
+    padding-left: 200px;
+}
+
+.pH4{
+    font-family: 'Nunito', sans-serif;
+    font-size:18px;
+    font-weight: 800;
+    text-align: justify;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.icons{
+    padding-left: 200px;
+}
+
+i{
+    padding: 20px 10px 10px 10px;
+    font-size: 35px; 
+    font-family: 'Nunito', sans-serif;
+
+}
+
+i:hover{
+    color: rgb(110, 6, 6);
+}
+
+
